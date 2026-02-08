@@ -25,7 +25,12 @@ SECRET_KEY = 'django-insecure-ipc^a9jea0r)9=7i%l@#7d(d27$5$)wygahx0oyfivgy+3+1nn
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    "alx-project-nexus-ecommerce-api.onrender.com",
+    "localhost",
+    "127.0.0.1",
+]
+
 
 
 # Application definition
